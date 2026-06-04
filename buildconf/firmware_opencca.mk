@@ -93,7 +93,7 @@ rmm-clean: ## clean rmm
 # U-Boot
 # --------------------------
 
-UBOOT_ROCKCHIP_TPL := $(ASSETS_DIR)/rk3588/rk3588_ddr_lp4_2112MHz_lp5_2736MHz_v1.08.bin
+UBOOT_ROCKCHIP_TPL := $(ASSETS_DIR)/rk3588/rk3588_ddr_lp4_2112MHz_lp5_2400MHz_v1.16.bin
 UBOOT_CONFIG := $(UBOOT_DIR)/.config
 UBOOT_FRAGMENT ?= $(UBOOT_DIR)/rk3588_fragment.config ## Uboot fragment
 UBOOT_BIN := idbloader.img u-boot.itb u-boot-rockchip.bin u-boot-rockchip-spi.bin u-boot

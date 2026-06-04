@@ -1,0 +1,9 @@
+
+# COCO local outputs
+snapshot/
+out/
+*.img
+*.ext4
+*.deb
+*.tar.gz
+*.log
